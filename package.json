@@ -1,0 +1,28 @@
+{
+  "name": "request-validator",
+  "version": "0.0.1",
+  "description": "connect/express middleware to validate incoming http requests",
+  "main": "lib/validator.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "make lint test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netroy/request-validator.git"
+  },
+  "keywords": [],
+  "author": "NetRoY <aditya@netroy.in> (http://netroy.in/)",
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.14.0",
+    "supertest": "~0.8.1",
+    "jshint": "~2.3.0"
+  },
+  "dependencies": {
+    "cidr_match": "0.0.7"
+  }
+}
